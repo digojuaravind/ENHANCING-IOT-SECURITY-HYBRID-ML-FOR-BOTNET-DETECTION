@@ -1,0 +1,12 @@
+Feature | Reason for Importance
+dur (Duration) | Attack flows may be shorter or significantly longer than normal flows.
+sbytes / dbytes (Source/Destination Bytes) | Abnormal byte volumes can indicate data exfiltration or DoS attacks.
+rate | Unusual packet rates often signal scanning or flooding attacks.
+sload / dload | High traffic load in either direction can be an indicator of anomalies.
+sloss / dloss | Packet loss often accompanies DDoS or network congestion due to attacks.
+sinpkt / dinpkt | Packet inter-arrival times can help spot slowloris or low-rate attacks.
+sjit / djit | Packet jitter reveals inconsistencies that can be due to attack behavior.
+sttl / dttl | TTL values can help detect spoofing or path manipulation.
+smean / dmean | Mean packet sizes are often consistent for legitimate traffic but vary during attacks.
+tcprtt / synack / ackdat | TCP timing and handshake anomalies often reveal scanning or SYN flood attacks.
+ct_state_ttl | Useful for identifying unusual or suspicious state transitions.
